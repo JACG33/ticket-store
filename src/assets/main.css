@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+table tbody tr:nth-child(odd) {
+	@apply bg-gray-700
+}
+
+table tbody tr:nth-child(even) {
+	@apply bg-gray-600
+}
+
+table td {
+	@apply p-1
+}
